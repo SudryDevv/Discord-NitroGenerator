@@ -47,7 +47,7 @@ module.exports = {
 				message.channel.send({ embeds: [embed] })
 			})
 			.catch(error => {
-				message.channel.send("Une erreur est survenue, merci de contacter le développeur\nNitro Generator © SudryDev")
+				message.channel.send("Une erreur est survenue, merci de contacter le développeur\n> Nitro Generator © SudryDev")
 				console.error("Error:", error);
 			});
 
